@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navimg a img{
+  width: 150px;
+  height: auto;
+  margin-left: 200px;
+  
+
+ }
+ .navfix{
+   position:sticky; 
+  top: 0;
+  z-index:9999;
+   
+ }
+ 
+ .yuva input{
+  width: 500px;
+  
+
+ }
+ .nav{
+  margin-left: 30px;
+  
+ }
+ .nav-item{
+  padding-left: 20px;
+ }
+ .nav-item ion-icon{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 5px;
+
+ }
+ .nav-item a button{
+  border: none;
+  background-color: rgb(248, 248, 248);
+  border-radius:5px ;
+  padding-bottom: 5px;
+  
+ }
+ .nav-item a button:hover{
+  background-color: rgb(31, 31, 222);
+  color: white;
+ }
+ ul ion-icon{
+  font-size: 25px;
+  padding-top: 20px;
+ }
+ .carousel{
+   
+  margin-top: 30px;
+ }
+ .section{
+  background-color: rgb(244, 244, 244);
+  height: auto;
+ }
+ .section2 .card:hover{
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+  
+ }
+ .sidebar a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  
+
+ }
+ 
+ .contant2{
+  display: flex;
+  
+ }
+ .contant2 .deta p{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 14px;
+ }
+ 
+.spe{
+  background-color: rgb(176, 254, 176);
+  display: inline;
+  border-radius: 3px;
+  padding: 1px;
+
+}
+.min::first-line{
+  background-color: antiquewhite;
+}
+.checked {
+  color: orange;
+  
+}
+.star{
+  top: 0;
+  margin-top: -30px;
+  margin-left: 70px;
+  display: flex;
+}
+.section2{
+  margin-left: 70px;
+  
+}
+.set{
+  height: 410px;
+}
+ 
+ 
+
+
+ @media screen and (max-width:600px) {
+  .navimg a img{
+    width:100px;
+    margin-left: 0px;
+  }
+  .yuva input{
+    width: 200px;
+  }
+  .nav{
+     margin-left: 0px;
+  }
+  .section2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .section2 >.card{
+    height: 250px;
+  }
+  .card-body{
+    font-size: 10px;
+  }
+  .set{
+    height:140px;
+  }
+   
+ }
